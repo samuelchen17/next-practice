@@ -3,7 +3,7 @@ import React from "react";
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <div>This is the layout for dash</div>
+      <h1 className="text-3xl">Dashboard</h1>
       {children}
     </div>
   );

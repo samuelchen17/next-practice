@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Greet from "./components/Greet";
+import Greet from "../components/Greet";
 
 export default function Home() {
   console.log("hello");
